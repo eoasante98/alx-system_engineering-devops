@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff <directory>
+find . -exec chown vincent:staff {} +
